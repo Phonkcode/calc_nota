@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Cálculo de Nota Final</h1>
+
+    <form>
+        <label for="ap1">AP1</label>
+        <input type="number" id="ap1" onblur="verificaAp1()">
+
+        <label for="ap2">AP2</label>
+        <input type="number" id="ap2">
+
+        <label for="sa">SA</label>
+        <input type="number" id="sa">
+        <button type="button" onclick="calcular()">Calcular Nota</button>
+        <button type="button" onclick="clean()">Limpar</button>
+        <p id="nota">Nota: </p>
+
+    </form>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
